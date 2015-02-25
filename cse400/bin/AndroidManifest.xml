@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Yeic.cse400"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/food_icon1"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme"
+        android:screenOrientation="portrait" >
+        <activity
+            android:name="com.Yeic.LoginGui.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Yeic.LoginGui.NewRegistration"
+            android:label="@string/title_activity_new_registeration"
+            android:parentActivityName="com.Yeic.LoginGui.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.cse400.LoginActivity" />
+        </activity>
+        <activity
+            android:name="com.Yeic.ChefGui.ChefActivity"
+            android:label="@string/title_activity_chef" >
+        </activity>
+        <activity
+            android:name="com.Yeic.ChefGui.AddItemActivity"
+            android:label="@string/Add"
+            android:parentActivityName="com.Yeic.ChefGui.ChefActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.ChefGui.ChefActivity" />
+        </activity>
+        <activity
+            android:name="com.Yeic.RestaurantOwnerGui.RestaurantOwnerActivity"
+            android:label="@string/title_activity_restaurant_owner" >
+        </activity>
+        <activity
+            android:name="com.Yeic.RestaurantOwnerGui.AddTableActivity"
+            android:label="@string/title_activity_add_table"
+            android:parentActivityName="com.Yeic.RestaurantOwnerGui.RestaurantOwnerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.RestaurantOwnerGui.RestaurantOwnerActivity" />
+        </activity>
+        <activity
+            android:name="com.Yeic.RestaurantOwnerGui.AddChefActivity"
+            android:label="@string/title_activity_add_chef"
+            android:parentActivityName="com.Yeic.RestaurantOwnerGui.RestaurantOwnerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.RestaurantOwnerGui.RestaurantOwnerActivity" />
+        </activity>
+        <activity
+            android:name="com.Yeic.CustomerGui.CustomerActivitiy"
+            android:label="@string/title_activity_customer_activitiy" >
+        </activity>
+        <activity
+            android:name="com.Yeic.CustomerGui.MakeOrderActivity"
+            android:label="@string/title_activity_make_order"
+            android:parentActivityName="com.Yeic.CustomerGui.CustomerActivitiy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.CustomerGui.CustomerActivitiy" />
+        </activity>
+        <activity
+            android:name="com.Yeic.ChefGui.ViewOrders"
+            android:label="@string/title_activity_view_orders"
+            android:parentActivityName="com.Yeic.ChefGui.ChefActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.ChefGui.ChefActivity" />
+        </activity>
+        <activity
+            android:name="com.Yeic.CustomerGui.NewReservation"
+            android:label="@string/title_activity_new_reservation"
+            android:parentActivityName="com.Yeic.CustomerGui.CustomerActivitiy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.CustomerGui.CustomerActivitiy" />
+        </activity>
+        <activity
+            android:name="com.Yeic.CustomerGui.OrderActivity"
+            android:label="@string/title_activity_orderfod"
+            android:parentActivityName="com.Yeic.CustomerGui.MakeOrderActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Yeic.CustomerGui.MakeOrderActivity" />
+        </activity>
+    </application>
+
+</manifest>

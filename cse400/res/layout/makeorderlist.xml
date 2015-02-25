@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/Foodbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/ConfirmButton"
+        android:text="@string/Catalog"
+        android:background="@drawable/buttonclickdrawable"
+        style="@style/ButtonTextStyle" 
+        android:layout_marginTop="3dp"/>
+
+    <ListView
+        android:id="@+id/orderslistView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ConfirmButton"
+        android:layout_alignLeft="@+id/ConfirmButton"
+        android:layout_alignParentTop="true"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent" >
+
+    </ListView>
+
+    <Button
+        android:layout_marginTop="3dp"
+        android:id="@+id/ConfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Foodbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/Confirm_Order"
+        android:background="@drawable/buttonclickdrawable"
+        style="@style/ButtonTextStyle" />
+
+</RelativeLayout>

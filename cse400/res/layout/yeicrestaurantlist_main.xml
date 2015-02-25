@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+    <TextView
+        android:id="@+id/mainpagetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/YEIC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="5dp"
+        style="@style/TitleStyle" />
+
+    <TextView
+        android:id="@+id/mainPageDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mainpagetitle"
+        android:text="@string/ManifestoYeiC"
+        android:padding="10dp"
+         style="@style/normalText"/>
+
+    <TextView
+        android:id="@+id/commentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainPageDescription"
+        android:layout_centerHorizontal="true"
+        android:text="@string/comment"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="10dp"
+        style="@style/SubTitleStyle" />
+
+    <ListView
+        android:id="@+id/listViewComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/commentTitle"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent" >
+    </ListView>
+
+</RelativeLayout>

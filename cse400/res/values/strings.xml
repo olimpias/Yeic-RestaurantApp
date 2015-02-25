@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YeiC</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="YEIC">YEIC RESTAURANT</string>
+    <string name="Username">Username:</string>
+    <string name="Password">Password:</string>
+    <string name="LoginButton">Login</string>
+    <string name="SignUp">Sign Up for YEIC Restaurant</string>
+    <string name="Registration">Registration</string>
+    <string name="Name">Name:</string>
+    <string name="Pass">Repass:</string>
+    <string name="Surname">Surname:</string>
+    <string name="Phone">Phone:</string>
+    <string name="Email">E-Mail:</string>
+    <string name="New_Registration">New Registration</string>
+    <string name="title_activity_new_registeration">NewRegisteration</string>
+    <string name="Remember_Me">Remember Me</string>
+    <string name="title_activity_chef">Chef</string>
+    <string name="LogOut">LogOut</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="confirm_button">Confirm Menu</string>
+    <string name="Done">Done</string>
+    <string name="Catalog">Catalog</string>
+
+    <string-array name="pageListBlocksChef">
+        <item>Main Page</item>
+        <item>Food</item>
+        <item>Drink</item>
+        <item>Menu</item>
+        <item>Orders</item>
+    </string-array>
+
+    <string name="new_reservation">Reservation</string>
+    <string name="nicePic">nice Picture</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ManifestoYeiC"> This restaurant is created by Lue Wing.We have all right of this restaurant.Dont mess with us.We rule this place.</string>
+    <string name="Add">Add</string>
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <string name="Item_name">Name </string>
+    <string name="create_NewItem">Create New Item</string>
+    <string name="Description">Description</string>
+
+    <string-array name="dialog_ChefItem">
+        <item>Add New Item</item>
+        <item>Delete Item</item>
+    </string-array>
+
+    <string name="title_activity_restaurant_owner">RestaurantOwnerActivity</string>
+    <string name="comment">Comments</string>
+
+    <string-array name="dialog_restaurantOwner_comment">
+        <item>Delete</item>
+    </string-array>
+    <string-array name="dialog_restaurantOwner_Table">
+        <item>Add Table</item>
+        <item>Edit Table</item>
+        <item>Delete Table</item>
+    </string-array>
+
+    <string name="create_table">Create New Table</string>
+    <string name="edit_table">Edit Exits Table</string>
+    <string name="descriptionDes">Description:</string>
+    <string name="title_activity_add_table">Table</string>
+    <string name="title_activity_add_chef">Chef</string>
+    <string name="Chef">Chef</string>
+    <string name="create_new_chef">Create New Chef</string>
+    <string name="edit_chef">Edit Chef</string>
+    <string name="title_activity_customer_activitiy">CustomerActivitiy</string>
+    <string name="repick_date">Repick Date</string>
+    <string name="title_activity_make_order">Your Orders</string>
+    <string name="NORESERVATION"> First Make Reservation </string>
+    <string name="COMMENT"> Make Comment About Yeic</string>
+    <string name="title_activity_view_orders">View Orders</string>
+    <string name="No_Card">No Card</string>
+    <string name="title_activity_add_menu">Add MenuActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_food_menu">FoodMenuActivity</string>
+    <string name="title_activity_drink_menu">DrinkMenuActivity</string>
+    <string name="itemname">Item name</string>
+    <string name="bir">1</string>
+    <string name="addFood">Add Food</string>
+    <string name="addDrink">Add Drink</string>
+    <string name="title_activity_new_reservation">New Reservation</string>
+    <string name="FOod">Food</string>
+    <string name="Drink">Drink</string>
+    <string name="Menu">Menu</string>
+    <string name="Confirm_Order">Confirm Order</string>
+    <string name="title_activity_orderfod">Catalog</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" additionalparam=" javadoc -tag pre:cm:&quot;Precondition:&quot;  -tag post:cm:&quot;Postcondition:&quot;  *.java&#13;&#10;" author="true" classpath="libs/android-support-v4.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.Yeic.GuiAdapters,com.Yeic.GuiItem,com.Yeic.Items,com.Yeic.LoginGui,com.Yeic.Equipments,com.Yeic.Database,com.Yeic.ChefGui,com.Yeic.Users,com.Yeic.cse400,com.Yeic.HTTP,com.Yeic.RestaurantOwnerGui,com.Yeic.CustomerGui" source="1.8" sourcepath="gen;src" splitindex="true" use="true" version="true">
+            <link href="file:/D:/eclipse/adt-bundle-windows-x86_64-20130522/sdk/docs/reference"/>
+            <link href="file:/C:/Users/Cem/workspace/cse400/doc/"/>
+        </javadoc>
+    </target>
+</project>

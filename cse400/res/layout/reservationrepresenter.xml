@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/listviewbackground" >
+
+     <TextView
+         android:id="@+id/reservationTitleTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:padding="10dp"
+         android:text="Large Text"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         style="@style/TitleStyle" />
+
+    <TextView
+        android:id="@+id/reservationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/reservationTitleTextView"
+        android:layout_toLeftOf="@+id/reservationimageView"
+        android:padding="10dp"
+        android:text="TextView" 
+        style="@style/normalText"/>
+
+    <TextView
+        android:id="@+id/reservationDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/reservationTitleTextView"
+        android:layout_alignBottom="@+id/reservationTitleTextView"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:text=""
+        style="@style/normalText"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/reservationdeleteimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/reservationTextView"
+        android:layout_alignRight="@+id/reservationDateTextView"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/buttonclickdrawable"/>
+
+    <ImageView
+        android:id="@+id/reservationimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/reservationdeleteimageView"
+        android:layout_toLeftOf="@+id/reservationdeleteimageView"
+        android:src="@android:drawable/ic_menu_edit"
+        android:background="@drawable/buttonclickdrawable" />
+
+</RelativeLayout>

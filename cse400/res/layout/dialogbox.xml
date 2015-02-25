@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/dialogBox" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/minusimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Donebutton"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/minusdialog" />
+
+    <ImageView
+        android:id="@+id/plusimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/minusimageView"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/numberTextView"
+        android:src="@drawable/plusdialog" />
+
+    <Button
+        android:id="@+id/Donebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/Done" />
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Donebutton"
+        android:layout_alignBottom="@+id/Donebutton"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
